@@ -1,0 +1,133 @@
+/* Start navbar*/
+.navbar{
+    background-color: rgb(11, 115, 176);
+}
+
+
+
+.nav-item{
+    padding: 0px 30px;
+    
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+.nav-item:hover{
+    /*background-color: #fff;*/
+}
+.nav-link{
+    font-size: 30px;
+    
+    font-weight: 600px;
+}
+.nav-item:hover .nav-link{
+    color: #080215;
+}
+.navbar-brand {
+    font-size: 50px;
+}
+.navbar-brand i {
+    color: #080215;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+/* End navbar*/
+
+/* Start Carousal */
+.bg1{
+    background: linear-gradient(rgba(120,185,223,0.2), rgba(59,68,137,0.2)),
+    url("images/image/image3.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh);
+    position: relative;
+}
+
+.bg2{
+    background:
+    linear-gradient(rgba(120,185,223,0.2), rgba(59,68,137,0.2)),url("images/image/image2.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh);
+    position: relative;
+}
+
+.bg3{
+    background:
+    linear-gradient(rgba(120,185,223,0.2), rgba(59,68,137,0.2)),url("images/image/image4.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh);
+    position: relative;
+}
+
+.mycaption{
+    color: #fff;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+.mycaption h1{
+    text-align: center;
+    font-size: 50px;
+}
+.mycaption p{
+    font-weight: 300;
+    text-align: center;
+}
+.readmore_slider{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.readmore_slider:hover{
+    background-color: #fff;
+    color: rgb(120, 185, 223);
+}
+/*About */
+section {
+    padding: 100px 20px;
+    font-size:30px;
+    font-weight:30;
+
+}
+.mainheading{
+    font-size: 50px;
+    font-weight: ;
+    text-align: center;
+    display: block;
+}
+.mainheading::before {
+    content: "";
+    width: 100px;
+    background-color: #ff9041 ;
+    height: 3px;
+    margin: 14px;
+    display: inline-block;
+}
+.mainheading::after {
+    content: "";
+    width: 100px;
+    background-color: #ff9041 ;
+    height: 3px;
+    margin: 14px;
+    display: inline-block;
+}
+.subheading {
+    text-align: center;
+    display: block;
+}
+/*End About */
